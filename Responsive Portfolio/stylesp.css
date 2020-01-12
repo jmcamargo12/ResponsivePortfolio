@@ -1,0 +1,121 @@
+body {
+  background-image: url(https://static1.squarespace.com/static/5349e8b2e4b0c1a4ea562181/57b600a2579fb32986dc94bf/5ca426e0b208fce608801432/1563563404894/619b1ab7ac25a95f087e3df19637385c.gif?format=1500w);
+}
+
+#navbar > nav {
+  background-image: url(https://media.giphy.com/media/l2JBygxaUuh8aJ6YHn/giphy.gif);
+
+  border-bottom-left-radius: 45%;
+  border-top-right-radius: 99%;
+  margin: 20px 45px;
+}
+
+.dropdown-menu {
+  background-image: url(https://static1.squarespace.com/static/5349e8b2e4b0c1a4ea562181/57b600a2579fb32986dc94bf/5ca426e0b208fce608801432/1563563404894/619b1ab7ac25a95f087e3df19637385c.gif?format=1500w);
+  background-size: initial;
+}
+
+#pictureone {
+  background-image: url(https://media3.giphy.com/media/l378BgICZNE4CralW/giphy.gif);
+
+  border-bottom-left-radius: 15%;
+  margin-top: 10px;
+}
+
+#info\ about\ me {
+  background-image: url(blank);
+  margin-left: 10px;
+
+  border-bottom-right-radius: 45%;
+}
+
+h4 {
+  color: yellowgreen;
+}
+
+#oneh {
+  color: black;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h5 {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+p {
+  font-size: 12px;
+}
+
+#text {
+  color: black;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 300px) {
+  .content {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .content {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

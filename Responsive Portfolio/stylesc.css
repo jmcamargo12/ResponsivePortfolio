@@ -1,0 +1,32 @@
+body {
+  background-image: url(https://media.giphy.com/media/DquhRxX9uJEME/giphy.gif);
+  background-attachment: fixed;
+}
+.dropdown-menu {
+  background-image: url(https://media.giphy.com/media/DquhRxX9uJEME/giphy.gif);
+}
+
+#navbar > nav {
+  background-image: url(https://media.giphy.com/media/l2JBygxaUuh8aJ6YHn/giphy.gif);
+
+  border-bottom-left-radius: 45%;
+  border-top-right-radius: 99%;
+  margin: 20px 45px;
+}
+
+img {
+  border-radius: 25%;
+}
+
+header {
+}
+
+.form-group {
+  color: white;
+}
+
+h4 {
+  color: black;
+}
+
+https: ; //media0.giphy.com/media/l378vyvOMTge2eD84/source.gif
